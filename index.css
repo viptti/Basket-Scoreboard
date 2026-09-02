@@ -1,0 +1,47 @@
+@font-face {
+    src: url("digital-7.ttf");
+    font-family: Timer;
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #EEEEEE;
+    font-size: 40px;
+}
+
+.scoreplus {
+    display: inline-flex;
+    
+}
+
+.points {
+    font-family: Timer;
+    color: #9AABD8;
+    background-color: #1B244A;
+    padding: 10px 10px;
+    border: 2px solid;
+    border-radius: 6px;
+    margin: 10px 10px
+}
+
+.scoreboard {
+    color: #F94F6D;
+    background-color: #080001;
+    font-family: Timer;
+    font-size: 90px;
+    line-height: 127px;
+    margin: 0;
+    padding: 0 50px;
+    border-radius: 10px;
+}
